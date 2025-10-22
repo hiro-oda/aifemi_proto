@@ -44,49 +44,53 @@
 「バカかよ、俺！　今日に限って目覚まし時計をセットし忘れるなんて！　初日から遅刻とかありえねえ！」[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="station_platform.jpg"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 俺は急いで駅に駆け込む。すると、いつも乗っている電車がちょうど駅のホームに着いたところだった。[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="inside_train.jpg"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
-#
 電車にすべり込んだ俺はその場で息を整える。[p]
 #&f.player
 「はあっ……はあっ、なんとか、間に合った！　……うわっ！？」[p]
+#
 [_tb_end_text]
 
 [chara_show  name="friend1"  time="1000"  wait="true"  storage="chara/6/friend1.png"  width="377"  height="986"  left="454"  top="-2"  reflect="false"  ]
 [tb_start_text mode=1 ]
-#&f.friend1
+#あきら
 「よっ、久しぶりだな」[p]
 #
 そのとき、横から勢いよく肩を叩かれ、俺は思わずよろめいてしまった。[p]
-#&f.friend1
+#あきら
 「はっ、これくらいで倒れそうになるなんて、相変わらず女みてーなナヨナヨした体してやんの」[p]
 #&f.player
 「あきら！　危ないから急にぶつかってくるなっていつも言ってるだろ！」[p]
 #
 こいつの名前は神崎あきら。高校に入学してからずっと仲の良い友人のひとりだ。毎朝俺と同じ電車に乗って学校へ行くと知ってからは、よく一緒に登校している。[p]
 というものの、俺はこいつの悪ノリが若干苦手ではあるんだが……[p]
-#&f.friend1
+#あきら
 「となりの車両にいたら、こっちにお前が駆け込んできてびっくりしたぜ。よくここに駆け込めたな」[p]
 #&f.player
 「ああ、今日は朝から寝坊して走ってきたんだ。それがどうした？」[p]
-#&f.friend1
+#あきら
 「そうじゃねえよ。はっ、マジで気づいてないのか？」[p]
 #
 あきらはなぜかニヤニヤしている。[p]
-#&f.friend1
+#あきら
 「ここ、女専用の車両だぜ」[p]
 #
 俺はハッとして車窓に視線を移す。確かにピンク色の「女性専用車」の案内がよく目立つ位置にあった。[p]
 この時間はどの車両も混雑しているが、ここだけ妙に空いているなと思い、何も考えずに乗り込んでしまったのだ。[p]
 #&f.player
 「うわっ……本当じゃん、今すぐ移動しねーと」[p]
-#&f.friend1
+#あきら
 「なんでだよ。俺たちは痴漢も盗撮もするつもりねーし、別に移動する必要ねーじゃん。汗くさくなくて快適だしな。しばらくここにいようぜ？」[p]
 #
 出た。またあきらの悪ノリだ。[p]
@@ -104,17 +108,17 @@
 「ごめんね、ここ女性専用なんだ。別の車両に移動してもらえると助かるんだけど」[p]
 #
 彼女は透明感のある笑顔を浮かべ、やわらかい声で言う。[p]
-#&f.friend1
+#あきら
 「はぁ？　別にいいだろ、空いてんだから。女しか乗れないとか、逆差別じゃねえの？　俺たちだって客なんだぜ？」[p]
 #？？
 「そう思う人もいるかもしれないけど、女性専用車両は私たちの安全と安らぎを守るために設けられた場所なんだ。わかってくれると嬉しいな」[p]
-#&f.friend1
+#あきら
 「はっ、安全？　そんなの俺たちが守ってやるっての。な、[emb exp="f.player"]？」[p]
 #&f.player
 「あ、ああ、そうだな」[p]
 #
 あきらに同意を求められ、俺は勢いのまま首を縦に振ってしまう。すると、ちょうど次の駅に到着するというアナウンスが車内に響いた。[p]
-#&f.friend1
+#あきら
 「ほら、着いたぞ [emb exp="f.player"]。あんなやつほっといてさっさと降りようぜ」[p]
 #&f.player
 「お、おう」[p]
@@ -125,13 +129,17 @@
 
 [chara_hide  name="青井光"  time="1000"  wait="false"  pos_mode="true"  ]
 [chara_hide  name="friend1"  time="1000"  wait="false"  pos_mode="true"  ]
+[tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="schoo_gate.jpg"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #
 青蘭高校の校門前は、朝から落ち着きなくざわついていた。[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="room.jpg"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 #生徒A
 「おい、見たかよ、校門前の女子！」[p]
@@ -163,7 +171,9 @@
 女神は、どうせ俺のような人間に微笑んではくれない。[p]
 [_tb_end_text]
 
+[tb_hide_message_window  ]
 [bg  time="1000"  method="crossfade"  storage="school_gym1.jpg"  ]
+[tb_show_message_window  ]
 [tb_start_text mode=1 ]
 体育館は相変わらず熱気と湿気に満ちていた。[p]
 だが、いつもと違うのは、スカートをはいた女子生徒の姿がちらほら見られること。[p]
