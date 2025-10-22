@@ -1,0 +1,8 @@
+[preload  storage="./data/bgimage/house_hallway.jpg"  ]
+[preload  storage="./data/bgimage/street_in_spring.jpg"  ]
+[preload  storage="./data/bgimage/station_platform.jpg"  ]
+[preload  storage="./data/bgimage/inside_train.jpg"  ]
+[preload  storage="./data/bgimage/schoo_gate.jpg"  ]
+[preload  storage="./data/bgimage/room.jpg"  ]
+[preload  storage="./data/bgimage/school_gym1.jpg"  ]
+[return]
