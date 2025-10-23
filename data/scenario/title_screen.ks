@@ -20,7 +20,7 @@
 ;タイトル表示
 
 
-[bg  storage="title.jpg"  ]
+[bg  storage="home_image.png"  ]
 *title
 
 [glink  color="black"  text="はじめから"  x="75"  y="370"  size="20"  target="*start"  ]
